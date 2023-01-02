@@ -6,6 +6,6 @@ Start Date:
 Jan 1st, 2023
 # DAILY LOG:
 ## Day1-1/1/2023
-Solved 2 problems from leet code /n
-1.Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
-Return the running sum of nums.(https://leetcode.com/problems/running-sum-of-1d-array/)
+ Solved 2 problems from leet code
+ 1.Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+   Return the running sum of nums.(https://leetcode.com/problems/running-sum-of-1d-array/)
