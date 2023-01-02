@@ -13,6 +13,6 @@ Solved 2 problems from leet code
 
 2.Given an array of integers nums, calculate the pivot index of this array.  
 The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
-[leet code link](https://leetcode.com/problems/find-pivot-index/)
+[leet code link](https://leetcode.com/problems/find-pivot-index/)  
   Time Complexity = O(n)
   Space Complexity = O(n)  
