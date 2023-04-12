@@ -22,20 +22,20 @@ The pivot index is the index where the sum of all the numbers strictly to the le
 ## Day9-12/4/2023 ->Binary search based questions
 Started 14 days of coding challenge on leetcode
 1. Binary Search 
-   [leet code link](https://leetcode.com/problems/binary-search/description/?envType=study-plan&id=algorithm-i)
+   (p)[leet code link](https://leetcode.com/problems/binary-search/description/?envType=study-plan&id=algorithm-i)
    Time Complexity = O(log(n))
-  Space Complexity = O(1)
-  type= easy
+   Space Complexity = O(1)
+   type= easy
   
 2. First Bad Version
-   [leet coe link](https://leetcode.com/problems/first-bad-version/?envType=study-plan&id=algorithm-i)
+   (p)[leet coe link](https://leetcode.com/problems/first-bad-version/?envType=study-plan&id=algorithm-i)
    Time Complexity = O(log(n))
    Space Complexity = O(1)
    type=easy
    
 3. Search Index position
-   [leet code link](https://leetcode.com/problems/search-insert-position/description/?envType=study-plan&id=algorithm-i)
-    Time Complexity = O(log(n))
+   (p)[leet code link](https://leetcode.com/problems/search-insert-position/description/?envType=study-plan&id=algorithm-i)
+   Time Complexity = O(log(n))
    Space Complexity = O(1)
    type=easy
   
