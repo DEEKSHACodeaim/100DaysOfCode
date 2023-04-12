@@ -32,7 +32,7 @@ Started 14 days of coding challenge on leetcode
    Space Complexity = O(1)  
    type=easy
    
-3. [Search Index position](https://leetcode.com/problems/search-insert-position/description/?envType=study-plan&id=algorithm-i)
+3. [Search Index position](https://leetcode.com/problems/search-insert-position/description/?envType=study-plan&id=algorithm-i)  
    Time Complexity = O(log(n))  
    Space Complexity = O(1)  
    type=easy
