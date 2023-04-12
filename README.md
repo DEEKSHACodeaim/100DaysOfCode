@@ -8,7 +8,7 @@ Jan 1st, 2023
 ## Day1-1/1/2023 ->Prefix Sum  
 Solved 2 problems from leet code  
 1.Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).  
-  Return the running sum of nums.[leet code link](https://leetcode.com/problems/running-sum-of-1d-array/)  
+  Return the running sum of nums.[leet code link](https://leetcode.com/problems/running-sum-of-1d-array/)
   Time Complexity = O(n)  
   type: easy
 
