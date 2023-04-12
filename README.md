@@ -10,6 +10,7 @@ Solved 2 problems from leet code
 1.Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).  
   Return the running sum of nums.[leet code link](https://leetcode.com/problems/running-sum-of-1d-array/)
   Time Complexity = O(n)  
+  Space Complexity = O(n)  
   type: easy
 
 2.Given an array of integers nums, calculate the pivot index of this array.  
@@ -21,21 +22,21 @@ The pivot index is the index where the sum of all the numbers strictly to the le
 
 ## Day9-12/4/2023 ->Binary search based questions
 Started 14 days of coding challenge on leetcode
-1. Binary Search
-   [leet code link](https://leetcode.com/problems/binary-search/description/?envType=study-plan&id=algorithm-i)
-   Time Complexity = O(log(n))
-   Space Complexity = O(1)
+1. Binary Search  
+   [leet code link](https://leetcode.com/problems/binary-search/description/?envType=study-plan&id=algorithm-i)  
+   Time Complexity = O(log(n))  
+   Space Complexity = O(1)  
    type= easy
   
-2. First Bad Version
-   [leet coe link](https://leetcode.com/problems/first-bad-version/?envType=study-plan&id=algorithm-i)
-   Time Complexity = O(log(n))
-   Space Complexity = O(1)
+2. First Bad Version  
+   [leet coe link](https://leetcode.com/problems/first-bad-version/?envType=study-plan&id=algorithm-i)  
+   Time Complexity = O(log(n))  
+   Space Complexity = O(1)  
    type=easy
    
-3. Search Index position
+3. Search Index position  
    [leet code link](https://leetcode.com/problems/search-insert-position/description/?envType=study-plan&id=algorithm-i)
-   Time Complexity = O(log(n))
-   Space Complexity = O(1)
+   Time Complexity = O(log(n))  
+   Space Complexity = O(1)  
    type=easy
   
