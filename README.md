@@ -71,3 +71,16 @@ Day 4 of the 14 daychallenge
    Time Complexity = O(n*s)  
    Space Complexity = O(n)  
    type= easy
+
+## Day13-16/4/23 ->Two Pointers
+Day 5 of 14 day challenge  
+1. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)  
+Time Complexity = O(n)  
+Space Complexity = O(1)  
+type = easy  
+
+2. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  
+Approach - two pointers at a distance of n -not simultanious updation at difference n  
+Time Complexity = O(n)
+Space Complexity = O(1)
+type= medium
