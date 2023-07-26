@@ -84,3 +84,17 @@ Approach - two pointers at a distance of n -not simultanious updation at differe
 Time Complexity = O(n)
 Space Complexity = O(1)
 type= medium
+
+# Arrays
+
+## Day 14-26/7/23 
+1. [Find the number of paths in a grid](https://leetcode.com/problems/unique-paths/description/)
+   brute force approach: Resurssions-> left tree as solutions for downwards path and right sub tree as solution for rightwards paths
+                                       base condition => 0 if out of bound and 1 if end found
+   Time Compelxity = O(2^n + 2^m)
+   Space Complexity = Depth of tree * each function call space
+   
+   ### optimal solution:
+   Dynamic programming: Store the solution in a matrix A\[m]\[n] and initial fill with -1
+   Hint: Since the sub problem already discovered no need to find the solution again so store it ( there were repeated sub trees in the recurion tree-> preface)
+
