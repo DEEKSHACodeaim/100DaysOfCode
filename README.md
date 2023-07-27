@@ -92,14 +92,14 @@ type= medium
 
    **brute force approach:**
    Resurssions-> left tree as solutions for downwards path and right sub tree as solution for rightwards paths
-                                       base condition => 0 if out of bound and 1 if end found
-   Time Compelxity = O(2^n + 2^m) 
+                                       base condition => 0 if out of bound and 1 if end found  
+   Time Compelxity = O(2^n + 2^m)   
    Space Complexity = Depth of tree * each function call space\[Exponential]
    
    **better solution:**
    Dynamic programming: Store the solution in a matrix A\[m]\[n] and initial fill with -1
-   Hint: Since the sub problem already discovered no need to find the solution again so store it ( there were repeated sub trees in the recurion tree-> preface)
-   Time complexity = O(n*m) \[ why? its bcs only those that are not computed in dp\[m]\[n]]
+   Hint: Since the sub problem already discovered no need to find the solution again so store it ( there were repeated sub trees in the recurion tree-> preface)  
+   Time complexity = O(n*m) \[ why? its bcs only those that are not computed in dp\[m]\[n]]  
    Space Complexity = O(n*m)
    type= medium
 
