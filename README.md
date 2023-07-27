@@ -100,8 +100,8 @@ type= medium
    Dynamic programming: Store the solution in a matrix A\[m]\[n] and initial fill with -1
    Hint: Since the sub problem already discovered no need to find the solution again so store it ( there were repeated sub trees in the recurion tree-> preface)
    Time complexity = O(n*m) \[ why? its bcs only those that are not computed in dp\[m]\[n]]
-   Space Complexity = O(n*m)
-   type= \medium
+   Space Complexity = O(n*m) \b
+   type= medium
 
    ### Optimal solution:
    Combinations solution: n+m-2 C n-1 to be calculated as there are a toal of n-1+m-1 paths that can be choosen in n-1 ways or m-1 ways
