@@ -104,9 +104,9 @@ type= medium
    type= medium
 
    **Optimal solution:**
-   Combinations solution: n+m-2 C n-1 to be calculated as there are a toal of n-1+m-1 paths that can be choosen in n-1 ways or m-1 ways
+   Combinations solution: n+m-2 C n-1 to be calculated as there are a toal of n-1+m-1 paths that can be choosen in n-1 ways or m-1 ways  
    Time complexity: O(n-1/m-1)  
-   Space Complexity: O(1) 
+   Space Complexity: O(1)   
 
 2. [Rverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)
 
@@ -114,7 +114,7 @@ type= medium
    O(n2) solution find all pairs from i to len(nums) for each element i and check for condition nums[i]>2*nums[j]
 
    **Optimal solution**
-   count while merging in merge sort  
+   count while merging in merge sort    
    Time Complexity = O(2n * log n)
 
    
