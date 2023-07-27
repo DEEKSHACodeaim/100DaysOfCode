@@ -100,8 +100,7 @@ type= medium
    Dynamic programming: Store the solution in a matrix A\[m]\[n] and initial fill with -1
    Hint: Since the sub problem already discovered no need to find the solution again so store it ( there were repeated sub trees in the recurion tree-> preface)
    Time complexity = O(n*m) \[ why? its bcs only those that are not computed in dp\[m]\[n]]
-   Space Complexity = O(n*m) \b
-
+   Space Complexity = O(n*m) 
    type= medium
 
    ### Optimal solution:
