@@ -115,7 +115,14 @@ type= medium
 
    **Optimal solution**
    count while merging in merge sort    
-   Time Complexity = O(2n * log n)
+   Time Complexity = O(2n * log n)  
+Type = Hard
 
+## Day 24 -26/7/23 
+1.[2 sum](https://leetcode.com/problems/two-sum/description/)  
+Use hash table and store the complement along with its value as index number in the table  
+Time Complexity = O(n)  
+Space Complexity =O (n)   
+type = Easy
    
    
