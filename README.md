@@ -101,6 +101,7 @@ type= medium
    Hint: Since the sub problem already discovered no need to find the solution again so store it ( there were repeated sub trees in the recurion tree-> preface)
    Time complexity = O(n*m) \[ why? its bcs only those that are not computed in dp\[m]\[n]]
    Space Complexity = O(n*m) \b
+
    type= medium
 
    ### Optimal solution:
