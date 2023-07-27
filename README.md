@@ -114,7 +114,7 @@ type= medium
    O(n2) solution find all pairs from i to len(nums) for each element i and check for condition nums[i]>2*nums[j]
 
    ### Optimal solution
-   count while merging in merge sort
+   count while merging in merge sort  
    Time Complexity = O(2n * log n)
 
    
