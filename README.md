@@ -87,7 +87,7 @@ type= medium
 
 # Arrays
 
-## Day 14-26/7/23 
+## Day 23 -26/7/23 
 1. [Find the number of paths in a grid](https://leetcode.com/problems/unique-paths/description/)
 
    ### brute force approach:
