@@ -123,6 +123,12 @@ Type = Hard
 Use hash table and store the complement along with its value as index number in the table  
 Time Complexity = O(n)  
 Space Complexity =O (n)   
-type = Easy
+type = Easy  
+
+2.[4 sum](https://leetcode.com/problems/4sum/submissions/)
+sort and have 2 pointer loop the other 2 for n iterations untill they cross each other check for i+j+k+l==target
+Time Complexity = O(nlogn)[sort] + O(n^3)
+Space Complexity = O(1) 
+## Day 25
    
    
