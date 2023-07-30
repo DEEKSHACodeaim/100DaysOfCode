@@ -129,6 +129,11 @@ type = Easy
 sort and have 2 pointer loop the other 2 for n iterations untill they cross each other check for i+j+k+l==target
 Time Complexity = O(nlogn)[sort] + O(n^3)
 Space Complexity = O(1) 
-## Day 25
-   
+type= medium
+
+## Day 25  
+[Largest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+If there is an element lesser than that element present dont do any thing else untill there is an element greater than a current element in hashset increase the count
+Time complexity = O(nlogn) (for each element in hashset search takes log n)
+Space Complexity = O(n)
    
