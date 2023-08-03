@@ -148,23 +148,23 @@ Space Complexity = O(n)
 # Linked Lists  
 
 ## Day 28 -31/7/23
-1. [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
-   Have 3 pointer initialize and iterate the loop until the next pointer is not void. For each iteration perform 2 operations:1) reverse next link 2) update the 3 pointer
-   Time = O(n), Space = O(n), type=easy
-2. [Middle Of Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
-   Use fast slow pointer  
-   Time Complexity =O(n/2) Space =O(1) type= easy
-## Day 29 -1/8/23
-1.[Merge 2 sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
-   Use the fact that the list pointer points to the entire list and can be assigned to the new list node
-   Time Complexity =O(n+m)  Space Complexity=O(n+m) type= easy
-2. [Remove nth node from the end of the list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-   Use fast and slow pointer. Maintain the fast pointer n nodes ahead of the slow pointer. Iterate the list by moving fast and slow pointer by 1 until fast reaches the end, the slow pointer then points to n+1 node from the end. Use the slow pointer to remove the nth node.
+1. [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)  
+   Have 3 pointer initialize and iterate the loop until the next pointer is not void. For each iteration perform 2 operations:1) reverse next link 2) update the 3 pointer  
+   Time = O(n), Space = O(n), type=easy  
+2. [Middle Of Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)  
+   Use fast slow pointer    
+   Time Complexity =O(n/2) Space =O(1) type= easy  
+## Day 29 -1/8/23  
+1.[Merge 2 sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)    
+   Use the fact that the list pointer points to the entire list and can be assigned to the new list node   
+   Time Complexity =O(n+m)  Space Complexity=O(n+m) type= easy    
+2. [Remove nth node from the end of the list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  
+   Use fast and slow pointer. Maintain the fast pointer n nodes ahead of the slow pointer. Iterate the list by moving fast and slow pointer by 1 until fast reaches the end, the slow pointer then points to n+1 node from the end. Use the slow pointer to remove the nth node.  
    Time Complexity= O(n) Space Complexity=O(1)  
-   type = medium  
-## Day 30 - 2/8/23
-1. [Add 2 number](https://leetcode.com/problems/add-two-numbers/)
-    Time Complexity =O(n+(m-n)) Space Complexity= O(n+(n-m))  type= medium
-2. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
-   Only that particular node is given so copy the next element to this node and remove the next node
-    Time Complexity = O(1)   Space=O(1)  type= medium
+   type = medium    
+## Day 30 - 2/8/23  
+1. [Add 2 number](https://leetcode.com/problems/add-two-numbers/)  
+    Time Complexity =O(n+(m-n)) Space Complexity= O(n+(n-m))  type= medium  
+2. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)  
+   Only that particular node is given so copy the next element to this node and remove the next node  
+    Time Complexity = O(1)   Space=O(1)  type= medium  
