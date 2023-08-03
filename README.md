@@ -143,7 +143,9 @@ Space Complexity = O(n)
 2. [Subarrays with XOR ‘K’](https://www.codingninjas.com/studio/problems/subarrays-with-xor-k_6826258?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=0)  
 
 ## Day 27 -30/7/23
-[Kadanes Algorithm]
+[Kadanes Algorithm]  
+
+
 
 # Linked Lists  
 
