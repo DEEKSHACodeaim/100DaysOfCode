@@ -108,7 +108,7 @@ type= medium
    Time complexity: O(n-1/m-1)  
    Space Complexity: O(1)   
 
-2. [Rverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)
+2. [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)
 
    **Brute force**
    O(n2) solution find all pairs from i to len(nums) for each element i and check for condition nums[i]>2*nums[j]
@@ -118,7 +118,7 @@ type= medium
    Time Complexity = O(2n * log n)  
 Type = Hard
 
-## Day 24 -26/7/23 
+## Day 24 -27/7/23 
 1.[2 sum](https://leetcode.com/problems/two-sum/description/)  
 Use hash table and store the complement along with its value as index number in the table  
 Time Complexity = O(n)  
@@ -131,9 +131,40 @@ Time Complexity = O(nlogn)[sort] + O(n^3)
 Space Complexity = O(1) 
 type= medium
 
-## Day 25  
+## Day 25 -28/7/23
 [Largest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 If there is an element lesser than that element present dont do any thing else untill there is an element greater than a current element in hashset increase the count
 Time complexity = O(nlogn) (for each element in hashset search takes log n)
 Space Complexity = O(n)
-   
+
+## Day 26 -29/7/23  
+1. [Largest subarray with 0 sum](https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1)  
+
+2. [Subarrays with XOR ‘K’](https://www.codingninjas.com/studio/problems/subarrays-with-xor-k_6826258?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=0)  
+
+## Day 27 -30/7/23
+[Kadanes Algorithm]
+
+# Linked Lists  
+
+## Day 28 -31/7/23
+1. [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
+   Have 3 pointer initialize and iterate the loop until the next pointer is not void. For each iteration perform 2 operations:1) reverse next link 2) update the 3 pointer
+   Time = O(n), Space = O(n), type=easy
+2. [Middle Of Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+   Use fast slow pointer  
+   Time Complexity =O(n/2) Space =O(1) type= easy
+## Day 29 -1/8/23
+1.[Merge 2 sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
+   Use the fact that the list pointer points to the entire list and can be assigned to the new list node
+   Time Complexity =O(n+m)  Space Complexity=O(n+m) type= easy
+2. [Remove nth node from the end of the list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+   Use fast and slow pointer. Maintain the fast pointer n nodes ahead of the slow pointer. Iterate the list by moving fast and slow pointer by 1 until fast reaches the end, the slow pointer then points to n+1 node from the end. Use the slow pointer to remove the nth node.
+   Time Complexity= O(n) Space Complexity=O(1)  
+   type = medium  
+## Day 30 - 2/8/23
+1. [Add 2 number](https://leetcode.com/problems/add-two-numbers/)
+    Time Complexity =O(n+(m-n)) Space Complexity= O(n+(n-m))  type= medium
+2. [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+   Only that particular node is given so copy the next element to this node and remove the next node
+    Time Complexity = O(1)   Space=O(1)  type= medium
